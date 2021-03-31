@@ -6,6 +6,8 @@ from itertools import product
 from spacy.util import minibatch, compounding
 from chatterbot.logic import LogicAdapter
 
+from spacy.training import Example
+
 #Step 3: Data Preparation
 #We want our chatbot to be able to distinguish between subtle 
 #inquires. For example – One might want to ask about the company 
@@ -73,7 +75,8 @@ TRAIN_DATA = [
 nlp = spacy.blank("en")
 
 ner = nlp.create_pipe("ner")
-nlp.add_pipe(ner)
+# nlp.add_pipe(ner)
+nlp.add_pipe("ner")
 
 ner.add_label('RATIO')
 ner.add_label('COMPANY')
@@ -92,8 +95,12 @@ with nlp.disable_pipes(*other_pipes):  # only train NER
         batches = minibatch(TRAIN_DATA, size=sizes)
         losses = {}
         for batch in batches:
-            texts, annotations = zip(*batch)
-            nlp.update(texts, annotations, sgd=optimizer, drop=0.35, losses=losses)
+            examples = []
+            for text, annots in batch:
+                examples.append(Example.from_dict(nlp.make_doc(text), annots))
+            nlp.update(examples, sgd=optimizer, drop=0.35, losses=losses)
+            # texts, annotations = zip(*batch)
+            # nlp.update(texts, annotations, sgd=optimizer, drop=0.35, losses=losses)
         print("Losses", losses)
 
 
