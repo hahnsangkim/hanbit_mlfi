@@ -1,5 +1,9 @@
 #### 1. Trading Strategies and Algorithmic Trading
-   [Bitcoin Trading Strategy using classification](Ch6_SLC/CS3BTS/BitcoinTradingStrategy.ipynb)<br/>[Bitcoin Trading - Enhancing Speed and Accuracy using dimensionality reduction ](Ch7_ULDR/CS3BTESA/BitcoinTradingEnhancingSpeedAccuracy.ipynb)<br/>[Clustering for Pairs Trading Strategy](Ch8_ULC/CS1CPT/ClusteringForPairsTrading.ipynb)<br/>[Reinforcement Learning based Trading Strategy](Ch9_RL/CS1RLTS/ReinforcementLearningBasedTradingStrategy.ipynb)<br/>[NLP and Sentiments Analysis based Trading Strategy](Ch10_NLP/CS1NLPSA/NLPandSentimentAnalysisBasedTradingStrategy.ipynb)
+   [Bitcoin Trading Strategy using classification](Ch6_SLC/CS3BTS/BitcoinTradingStrategy.ipynb)
+   [Bitcoin Trading - Enhancing Speed and Accuracy using dimensionality reduction ](Ch7_ULDR/CS3BTESA/BitcoinTradingEnhancingSpeedAccuracy.ipynb)
+   [Clustering for Pairs Trading Strategy](Ch8_ULC/CS1CPT/ClusteringForPairsTrading.ipynb)
+   [Reinforcement Learning based Trading Strategy](Ch9_RL/CS1RLTS/ReinforcementLearningBasedTradingStrategy.ipynb)
+   [NLP and Sentiments Analysis based Trading Strategy](Ch10_NLP/CS1NLPSA/NLPandSentimentAnalysisBasedTradingStrategy.ipynb)
 
 #### 2. Portfolio Management and robo-advisors
 * [Investor Risk Tolerance and Robo-advisors - using supervised regression](Ch5_SLR/CS3IRTR/InvestorRiskToleranceAndRoboAdvisor.ipynb)
