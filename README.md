@@ -153,51 +153,80 @@ If you install a library and are not able to import it on the jupyter notebook. 
 ### Notebooks by Application in Finance 
 
 #### 1. Trading Strategies and Algorithmic Trading
-   [Bitcoin Trading Strategy using classification](Chapter%206%20-%20Sup.%20Learning%20-%20Classification%20models/CaseStudy3%20-%20Bitcoin%20Trading%20Strategy/BitcoinTradingStrategy.ipynb)<br/>[Bitcoin Trading - Enhancing Speed and Accuracy using dimensionality reduction ](Chapter%207%20-%20Unsup.%20Learning%20-%20Dimensionality%20Reduction/CaseStudy3%20-Bitcoin%20Trading%20-%20Enhancing%20Speed%20and%20accuracy/BitcoinTradingEnhancingSpeedAccuracy.ipynb)<br/>[Clustering for Pairs Trading Strategy](Chapter%208%20-%20Unsup.%20Learning%20-%20Clustering/Case%20Study1%20-%20Clustering%20for%20Pairs%20Trading/ClusteringForPairsTrading.ipynb)<br/>[Reinforcement Learning based Trading Strategy](Chapter%209%20-%20Reinforcement%20Learning/Case%20Study%201%20-%20Reinforcement%20Learning%20based%20Trading%20Strategy/ReinforcementLearningBasedTradingStrategy.ipynb)<br/>[NLP and Sentiments Analysis based Trading Strategy](Chapter%2010%20-%20Natural%20Language%20Processing/Case%20Study%201%20-%20NLP%20and%20Sentiments%20Analysis%20based%20Trading%20Strategy/NLPandSentimentAnalysisBasedTradingStrategy.ipynb)
+   [Bitcoin Trading Strategy using classification](Ch6_SLC/CS3BTS/BitcoinTradingStrategy.ipynb)<br/>[Bitcoin Trading - Enhancing Speed and Accuracy using dimensionality reduction ](Ch7_ULDR/CS3BTESA/BitcoinTradingEnhancingSpeedAccuracy.ipynb)<br/>[Clustering for Pairs Trading Strategy](Ch8_ULC/CS1CPT/ClusteringForPairsTrading.ipynb)<br/>[Reinforcement Learning based Trading Strategy](Ch9_RL/CS1RLTS/ReinforcementLearningBasedTradingStrategy.ipynb)<br/>[NLP and Sentiments Analysis based Trading Strategy](Ch10_NLP/CS1NLPSA/NLPandSentimentAnalysisBasedTradingStrategy.ipynb)
 
 #### 2. Portfolio Management and robo-advisors
-   [Investor Risk Tolerance and Robo-advisors - using supervised regression](Chapter%205%20-%20Sup.%20Learning%20-%20Regression%20and%20Time%20Series%20models/Case%20Study%203%20-%20Investor%20Risk%20Tolerance%20and%20Robo-advisors/InvestorRiskToleranceAndRoboAdvisor.ipynb)<br/>[Robo-Advisor Dashboard-powdered by ML](Chapter%205%20-%20Sup.%20Learning%20-%20Regression%20and%20Time%20Series%20models/Case%20Study%203%20-%20Investor%20Risk%20Tolerance%20and%20Robo-advisors/Sample-Robo%20Advisor.ipynb)<br/>[Portfolio Management - Eigen Portfolio - using dimensionality reduction](Chapter%207%20-%20Unsup.%20Learning%20-%20Dimensionality%20Reduction/CaseStudy1%20-%20Portfolio%20Management%20-%20Eigen%20Portfolio/PortfolioManagementEigen%20Portfolio.ipynb)<br/>[Portfolio Management - Clustering Investors](Chapter%208%20-%20Unsup.%20Learning%20-%20Clustering/Case%20Study2%20-%20Portfolio%20Management%20-%20%20Clustering%20Investors/PortfolioManagementClusteringInvestors.ipynb)<br/>[Hierarchial Risk Parity - using clustering](Chapter%208%20-%20Unsup.%20Learning%20-%20Clustering/Case%20Study3%20-%20Hierarchial%20Risk%20Parity/HierarchicalRiskParity.ipynb)<br/>[Portfolio Allocation - using reinforcement learning](Chapter%209%20-%20Reinforcement%20Learning/Case%20Study%203%20-%20Portfolio%20Allocation/PortfolioAllocation.ipynb)
-    
- #### 3. Derivatives Pricing and Hedging
-   [Derivative Pricing - using supervised regression](Chapter%205%20-%20Sup.%20Learning%20-%20Regression%20and%20Time%20Series%20models/Case%20Study%202%20-%20Derivatives%20Pricing/DerivativesPricing.ipynb)<br/>[Derivatives Hedging - using reinforcement learning](Chapter%209%20-%20Reinforcement%20Learning/Case%20Study%202%20-%20Derivatives%20Hedging/DerivativesHedging.ipynb)
- 
- #### 4. Asset Price Prediction
-   [Stock Price Prediction - using regression and time series](Chapter%205%20-%20Sup.%20Learning%20-%20Regression%20and%20Time%20Series%20models/Case%20Study%201%20-%20Stock%20Price%20Prediction/StockPricePrediction.ipynb)<br/>[Yield Curve Prediction - using regression and time series](Chapter%205%20-%20Sup.%20Learning%20-%20Regression%20and%20Time%20Series%20models/Case%20Study%204%20-%20Yield%20Curve%20Prediction/%20YieldCurvePrediction.ipynb)<br/>[Yield Curve Construction and Interest Rate Modeling - using dimensionality reduction](Chapter%207%20-%20Unsup.%20Learning%20-%20Dimensionality%20Reduction/CaseStudy2%20-%20Yield%20Curve%20Construction%20and%20Interest%20Rate%20Modeling/YieldCurveConstruction.ipynb)
-    
- #### 5. Fraud Detection
-   [Fraud Detection - using classification](Chapter%206%20-%20Sup.%20Learning%20-%20Classification%20models/CaseStudy1%20-%20Fraud%20Detection/FraudDetection.ipynb)
-   
+* [Investor Risk Tolerance and Robo-advisors - using supervised regression](Ch5_SLR/CS3IRTR/InvestorRiskToleranceAndRoboAdvisor.ipynb)
+* [Robo-Advisor Dashboard-powdered by ML](Ch5_SLR/CS3IRTR/Sample-RoboAdvisor.ipynb)
+* [Portfolio Management - Eigen Portfolio - using dimensionality reduction](Ch7_ULDR/CS1PMEP/PortfolioManagementEigenPortfolio.ipynb)
+* [Portfolio Management - Clustering Investors](Ch8_ULC/CS2PMCI/PortfolioManagementClusteringInvestors.ipynb)
+* [Hierarchial Risk Parity - using clustering](Ch8_ULC/CS3HRP/HierarchicalRiskParity.ipynb)
+* [Portfolio Allocation - using reinforcement learning](Ch9_RL/CS3PA/PortfolioAllocation.ipynb)
+
+#### 3. Derivatives Pricing and Hedging
+* [Derivative Pricing - using supervised regression](Ch5_SLR/CS2DP/DerivativesPricing.ipynb)
+* [Derivatives Hedging - using reinforcement learning](Ch9_RL/CS2DH/DerivativesHedging.ipynb)
+
+#### 4. Asset Price Prediction
+* [Stock Price Prediction - using regression and time series](Ch5_SLR/CS1SPP/StockPricePrediction.ipynb)
+* [Yield Curve Prediction - using regression and time series](Ch5_SLR/CS4YCP/YieldCurvePrediction.ipynb)
+* [Yield Curve Construction and Interest Rate Modeling - using dimensionality reduction](Ch7_ULDR/CS2YCCIRM/YieldCurveConstruction.ipynb)
+
+#### 5. Fraud Detection
+* [Fraud Detection - using classification](Ch6_SLC/CS1FD/FraudDetection.ipynb)
+
+
 #### 6. Loan Default probability prediction
-   [Loan Default Probability - using classification](Chapter%206%20-%20Sup.%20Learning%20-%20Classification%20models/CaseStudy2%20-%20Loan%20Default%20Probability/LoanDefaultProbability.ipynb)
-   
+* [Loan Default Probability - using classification](Ch6_SLC/CS2LDP/LoanDefaultProbability.ipynb)
+
+
 #### 7. Chatbot and automation
-   [Digital Assistant-chat-bots - using NLP](Chapter%2010%20-%20Natural%20Language%20Processing/Case%20Study%202%20-%20Digital%20Assistant-chat-bots/DigitalAssistant-chat-bot.ipynb)<br/>[Documents Summarization - using NLP](Chapter%2010%20-%20Natural%20Language%20Processing/Case%20Study%202%20-%20Digital%20Assistant-chat-bots/Case%20Study%203%20-%20Documents%20Summarization/DocumentSummarization.ipynb)
-    
-### Notebooks by Machine Learning Types
+* [Digital Assistant-chat-bots - using NLP](Ch10_NLP/CS2DA/DigitalAssistant-chat-bot.ipynb)
+* [Documents Summarization - using NLP](Ch10_NLP/CS3DS/DocumentSummarization.ipynb)
+
+
+## Notebooks by Machine Learning Types 
 
 #### 1. Supervised Learning- Regression and Time series Models
-   [Stock Price Prediction ](Chapter%205%20-%20Sup.%20Learning%20-%20Regression%20and%20Time%20Series%20models/Case%20Study%201%20-%20Stock%20Price%20Prediction/StockPricePrediction.ipynb)<br/>[Derivative Pricing](Chapter%205%20-%20Sup.%20Learning%20-%20Regression%20and%20Time%20Series%20models/Case%20Study%202%20-%20Derivatives%20Pricing/DerivativesPricing.ipynb)<br/>[Investor Risk Tolerance and Robo-advisors](Chapter%205%20-%20Sup.%20Learning%20-%20Regression%20and%20Time%20Series%20models/Case%20Study%203%20-%20Investor%20Risk%20Tolerance%20and%20Robo-advisors/InvestorRiskToleranceAndRoboAdvisor.ipynb)<br/>[Yield Curve Prediction](Chapter%205%20-%20Sup.%20Learning%20-%20Regression%20and%20Time%20Series%20models/Case%20Study%204%20-%20Yield%20Curve%20Prediction/%20YieldCurvePrediction.ipynb)
-   
+
+*  [Stock Price Prediction ](Ch5_SLR/CS1SPP/StockPricePrediction.ipynb)
+*  [Derivative Pricing](Ch5_SLR/CS2DP/DerivativesPricing.ipynb)
+*  [Investor Risk Tolerance and Robo-advisors](Ch5_SLR/CS3IRTR/InvestorRiskToleranceAndRoboAdvisor.ipynb)
+*  [Yield Curve Prediction](Ch5_SLR/CS4YCP/YieldCurvePrediction.ipynb)
+
 #### 2. Supervised Learning- Classification Models
-   [Fraud Detection](Chapter%206%20-%20Sup.%20Learning%20-%20Classification%20models/CaseStudy1%20-%20Fraud%20Detection/FraudDetection.ipynb)<br/>[Loan Default Probability](Chapter%206%20-%20Sup.%20Learning%20-%20Classification%20models/CaseStudy2%20-%20Loan%20Default%20Probability/LoanDefaultProbability.ipynb)<br/>[Bitcoin Trading Strategy](Chapter%206%20-%20Sup.%20Learning%20-%20Classification%20models/CaseStudy3%20-%20Bitcoin%20Trading%20Strategy/BitcoinTradingStrategy.ipynb)<br/>
+*  [Fraud Detection](Ch6_SLC/CS1FD/FraudDetection.ipynb)
+*  [Loan Default Probability](Ch6_SLC/CS2LDP/LoanDefaultProbability.ipynb)
+*  [Bitcoin Trading Strategy](Ch6_SLC/CS3BTS/BitcoinTradingStrategy.ipynb)
 
 #### 3. Unsupervised Learning- Dimensionality Reduction Models
-   [Portfolio Management - Eigen Portfolio](Chapter%207%20-%20Unsup.%20Learning%20-%20Dimensionality%20Reduction/CaseStudy1%20-%20Portfolio%20Management%20-%20Eigen%20Portfolio/PortfolioManagementEigen%20Portfolio.ipynb)<br/>[Yield Curve Construction and Interest Rate Modeling](Chapter%207%20-%20Unsup.%20Learning%20-%20Dimensionality%20Reduction/CaseStudy2%20-%20Yield%20Curve%20Construction%20and%20Interest%20Rate%20Modeling/YieldCurveConstruction.ipynb)<br/>[Bitcoin Trading - Enhancing Speed and accuracy](Chapter%207%20-%20Unsup.%20Learning%20-%20Dimensionality%20Reduction/CaseStudy3%20-Bitcoin%20Trading%20-%20Enhancing%20Speed%20and%20accuracy/BitcoinTradingEnhancingSpeedAccuracy.ipynb)<br/>
-   
+*   [Portfolio Management - Eigen Portfolio](Ch7_ULDR/CS1PMEP/PortfolioManagementEigenPortfolio.ipynb)
+*   [Yield Curve Construction and Interest Rate Modeling](Ch7_ULDR/CS2YCCIRM/YieldCurveConstruction.ipynb)
+*   [Bitcoin Trading - Enhancing Speed and accuracy](Ch7_ULDR/CS3BTESA/BitcoinTradingEnhancingSpeedAccuracy.ipynb)
+
 #### 4. Unsupervised Learning- Clustering
+*   [Clustering for Pairs Trading](Ch8_ULC/CS1CPT/ClusteringForPairsTrading.ipynb)
+*   [Portfolio Management - Clustering Investors](Ch8_ULC/CS2PMCI/PortfolioManagementClusteringInvestors.ipynb)
+*   [Hierarchial Risk Parity](Ch8_ULC/CS3HRP/HierarchicalRiskParity.ipynb)
 
-   [Clustering for Pairs Trading](Chapter%208%20-%20Unsup.%20Learning%20-%20Clustering/Case%20Study1%20-%20Clustering%20for%20Pairs%20Trading/ClusteringForPairsTrading.ipynb)<br/>[Portfolio Management - Clustering Investors](Chapter%208%20-%20Unsup.%20Learning%20-%20Clustering/Case%20Study2%20-%20Portfolio%20Management%20-%20%20Clustering%20Investors/PortfolioManagementClusteringInvestors.ipynb)<br/>[Hierarchial Risk Parity](Chapter%208%20-%20Unsup.%20Learning%20-%20Clustering/Case%20Study3%20-%20Hierarchial%20Risk%20Parity/HierarchicalRiskParity.ipynb)<br/>
-    
 #### 5. Reinforcement Learning
+*   [Reinforcement Learning based Trading Strategy](Ch9_RL/CS1RLTS/ReinforcementLearningBasedTradingStrategy.ipynb)
+*   [Derivatives Hedging](Ch9_RL/CS2DH/DerivativesHedging.ipynb)
+*   [Portfolio Allocation](Ch9_RL/CS3PA/PortfolioAllocation.ipynb)
 
-   [Reinforcement Learning based Trading Strategy](Chapter%209%20-%20Reinforcement%20Learning/Case%20Study%201%20-%20Reinforcement%20Learning%20based%20Trading%20Strategy/ReinforcementLearningBasedTradingStrategy.ipynb)<br/>[Derivatives Hedging](Chapter%209%20-%20Reinforcement%20Learning/Case%20Study%202%20-%20Derivatives%20Hedging/DerivativesHedging.ipynb)<br/>[Portfolio Allocation](Chapter%209%20-%20Reinforcement%20Learning/Case%20Study%203%20-%20Portfolio%20Allocation/PortfolioAllocation.ipynb)<br/>
-   
 #### 6. Natural Language Processing
+*   [NLP and Sentiments Analysis based Trading Strategy](Ch10_NLP/CS1NLPSA/NLPandSentimentAnalysisBasedTradingStrategy.ipynb)
+*   [Digital Assistant-chat-bots](Ch10_NLP/CS2DA/DigitalAssistant-chat-bot.ipynb)
+*   [Documents Summarization](Ch10_NLP/CS3DS/DocumentSummarization.ipynbb)
 
-   [NLP and Sentiments Analysis based Trading Strategy](Chapter%2010%20-%20Natural%20Language%20Processing/Case%20Study%201%20-%20NLP%20and%20Sentiments%20Analysis%20based%20Trading%20Strategy/NLPandSentimentAnalysisBasedTradingStrategy.ipynb)<br/>[Digital Assistant-chat-bots](Chapter%2010%20-%20Natural%20Language%20Processing/Case%20Study%202%20-%20Digital%20Assistant-chat-bots/DigitalAssistant-chat-bot.ipynb)<br/>[Documents Summarization](Chapter%2010%20-%20Natural%20Language%20Processing/Case%20Study%202%20-%20Digital%20Assistant-chat-bots/Case%20Study%203%20-%20Documents%20Summarization/DocumentSummarization.ipynbb)<br/>
-    
-### Master Template for different machine learning type
-  [Supervised learning - Regression and Time series](Chapter%205%20-%20Sup.%20Learning%20-%20Regression%20and%20Time%20Series%20models/Regression-MasterTemplate.ipynb)<br/> [Supervised learning - Classification](Chapter%206%20-%20Sup.%20Learning%20-%20Classification%20models/Classification-MasterTemplate.ipynb)<br/>[Unsupervised learning - Dimensionality Reduction ](Chapter%207%20-%20Unsup.%20Learning%20-%20Dimensionality%20Reduction/DimensionalityReduction-MasterTemplate.ipynb)<br/>[Unsupervised learning - Clustering](Chapter%208%20-%20Unsup.%20Learning%20-%20Clustering/Clustering-MasterTemplate.ipynb)<br/>[Natural Language Processing](Chapter%2010%20-%20Natural%20Language%20Processing/NLP-MasterTemplate.ipynb)<br/>
-  
-    
 
+
+## Master Template for different machine learning type
+
+* [Supervised learning - Regression and Time series](Ch5_SLR/Regression-MasterTemplate.ipynb)
+* [Supervised learning - Classification](Ch6_SLC/Classification-MasterTemplate.ipynb)
+* [Unsupervised learning - Dimensionality Reduction ](Ch7_ULDR/DimensionalityReduction-MasterTemplate.ipynb)
+* [Unsupervised learning - Clustering](Ch8_ULC/Clustering-MasterTemplate.ipynb)
+* [Natural Language Processing](Ch10_NLP/NLP-MasterTemplate.ipynb)
+
+ 
