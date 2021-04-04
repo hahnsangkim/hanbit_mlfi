@@ -1,5 +1,5 @@
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hahnsangkim/hanbit_mlfi/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hahnsangkim/hanbit_mlfi/main)
 
 # Machine Learning and Data Science Blueprints for Finance - Jupyter Notebooks
 
@@ -15,8 +15,8 @@ Use any of the following services.
 
 **WARNING**: Please be aware that these services provide temporary environments: anything you do will be deleted after a while, so make sure you download any data you care about.
 
-* **Recommended**: Open it in [Binder](https://mybinder.org/v2/gh/hahnsangkim/hanbit_mlfi/HEAD):
-<a href="https://mybinder.org/v2/gh/hahnsangkim/hanbit_mlfi/HEAD"><img src="https://matthiasbussonnier.com/posts/img/binder_logo_128x128.png" width="90" /></a>
+* **Recommended**: Open it in [Binder](https://mybinder.org/v2/gh/hahnsangkim/hanbit_mlfi/main):
+<a href="https://mybinder.org/v2/gh/hahnsangkim/hanbit_mlfi/main"><img src="https://matthiasbussonnier.com/posts/img/binder_logo_128x128.png" width="90" /></a>
 
   * _Note_: Binder is a hosting service and the directories of the book will open exactly like they open on your local machine with no installation required. The connection between different files within the folder will work seamlessly. Most of the time, Binder starts up quickly and works great, but when the github repository of this book is updated, Binder creates a new environment from scratch, and this can take quite some time. Also, some of the case study, specially that require more cache data might be slow.
   
