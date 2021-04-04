@@ -1,4 +1,6 @@
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hahnsangkim/hanbit_mlfi/HEAD)
+
 # Machine Learning and Data Science Blueprints for Finance - Jupyter Notebooks
 
 This github repository contains the code to the case studies in the O'Reilly book *Machine Learning and Data
@@ -13,20 +15,20 @@ Use any of the following services.
 
 **WARNING**: Please be aware that these services provide temporary environments: anything you do will be deleted after a while, so make sure you download any data you care about.
 
-* **Recommended**: Open it in [Binder](https://mybinder.org/v2/gh/tatsath/fin-ml/master):
-<a href="https://mybinder.org/v2/gh/tatsath/fin-ml/master"><img src="https://matthiasbussonnier.com/posts/img/binder_logo_128x128.png" width="90" /></a>
+* **Recommended**: Open it in [Binder](https://mybinder.org/v2/gh/hahnsangkim/hanbit_mlfi/HEAD):
+<a href="https://mybinder.org/v2/gh/hahnsangkim/hanbit_mlfi/HEAD"><img src="https://matthiasbussonnier.com/posts/img/binder_logo_128x128.png" width="90" /></a>
 
   * _Note_: Binder is a hosting service and the directories of the book will open exactly like they open on your local machine with no installation required. The connection between different files within the folder will work seamlessly. Most of the time, Binder starts up quickly and works great, but when the github repository of this book is updated, Binder creates a new environment from scratch, and this can take quite some time. Also, some of the case study, specially that require more cache data might be slow.
   
-* Open this repository in [Colaboratory](https://colab.research.google.com/github/tatsath/fin-ml/blob/master):
-<a href="https://colab.research.google.com/github/tatsath/fin-ml/blob/master"><img src="https://colab.research.google.com/img/colab_favicon.ico" width="90" /></a>
+* Open this repository in [Colaboratory](https://colab.research.google.com/github/hahnsangkim/hanbit_mlfi/blob/main):
+<a href="https://colab.research.google.com/github/hahnsangkim/hanbit_mlfi/blob/main"><img src="https://colab.research.google.com/img/colab_favicon.ico" width="90" /></a>
 
   * _Note_: Google colab supports GPU and can be quite fast. However, the linkages to data file located in the folders of the git directory may not work. Upload the data files seperately while running the jupyter notebooks on google colab. For loading the data files on google colab, you can replace the local directory path with the github path. For example, for the data of case study 1 of chapter 7 _dataset = read_csv('Dow_adjcloses.csv')_ in the code can be replace with _dataset = read_csv('https://raw.githubusercontent.com/tatsath/fin-ml/master/Chapter%207%20-%20Unsup.%20Learning%20-%20Dimensionality%20Reduction/CaseStudy1%20-%20Portfolio%20Management%20-%20Eigen%20Portfolio/Dow_adjcloses.csv')_ for it to work on google colab.  
 
 ### Just want to quickly look at some notebooks, without executing any code?
 
-Browse this repository using [jupyter.org's notebook viewer](https://nbviewer.jupyter.org/github/tatsath/fin-ml/blob/master/index.ipynb):
-<a href="https://nbviewer.jupyter.org/github/tatsath/fin-ml/blob/master/index.ipynb"><img src="https://jupyter.org/assets/nav_logo.svg" width="150" /></a>
+Browse this repository using [jupyter.org's notebook viewer](https://nbviewer.jupyter.org/github/hahnsangkim/hanbit_mlfi/blob/main/index.ipynb):
+<a href="https://nbviewer.jupyter.org/github/hahnsangkim/hanbit_mlfi/blob/main/index.ipynb"><img src="https://jupyter.org/assets/nav_logo.svg" width="150" /></a>
 
 ### Want to install this project on your own machine?
 
@@ -37,7 +39,7 @@ Next, clone this project by opening a terminal and typing the following commands
 
 
     $ cd $HOME  # or any other development directory you prefer
-    $ git clone https://github.com/tatsath/fin-ml.git
+    $ git clone https://github.com/hahnsangkim/hanbit_mlfi.git
     $ cd fin-ml
 
 If you do not want to install git, you can instead download [master.zip](https://github.com/tatsath/fin-ml/archive/master.zip), unzip it, rename the resulting directory to `fin-ml` and move it to your development directory. 
@@ -148,85 +150,5 @@ If you install a library and are not able to import it on the jupyter notebook. 
     $ !pip install quandl
     $ !pip install cvxopt
 
-## Want to look at the individual case studies or jupyter notebooks?
-
-### Notebooks by Application in Finance 
-
-#### 1. Trading Strategies and Algorithmic Trading
-   [Bitcoin Trading Strategy using classification](Ch6_SLC/CS3BTS/BitcoinTradingStrategy.ipynb)<br/>[Bitcoin Trading - Enhancing Speed and Accuracy using dimensionality reduction ](Ch7_ULDR/CS3BTESA/BitcoinTradingEnhancingSpeedAccuracy.ipynb)<br/>[Clustering for Pairs Trading Strategy](Ch8_ULC/CS1CPT/ClusteringForPairsTrading.ipynb)<br/>[Reinforcement Learning based Trading Strategy](Ch9_RL/CS1RLTS/ReinforcementLearningBasedTradingStrategy.ipynb)<br/>[NLP and Sentiments Analysis based Trading Strategy](Ch10_NLP/CS1NLPSA/NLPandSentimentAnalysisBasedTradingStrategy.ipynb)
-
-#### 2. Portfolio Management and robo-advisors
-* [Investor Risk Tolerance and Robo-advisors - using supervised regression](Ch5_SLR/CS3IRTR/InvestorRiskToleranceAndRoboAdvisor.ipynb)
-* [Robo-Advisor Dashboard-powdered by ML](Ch5_SLR/CS3IRTR/Sample-RoboAdvisor.ipynb)
-* [Portfolio Management - Eigen Portfolio - using dimensionality reduction](Ch7_ULDR/CS1PMEP/PortfolioManagementEigenPortfolio.ipynb)
-* [Portfolio Management - Clustering Investors](Ch8_ULC/CS2PMCI/PortfolioManagementClusteringInvestors.ipynb)
-* [Hierarchial Risk Parity - using clustering](Ch8_ULC/CS3HRP/HierarchicalRiskParity.ipynb)
-* [Portfolio Allocation - using reinforcement learning](Ch9_RL/CS3PA/PortfolioAllocation.ipynb)
-
-#### 3. Derivatives Pricing and Hedging
-* [Derivative Pricing - using supervised regression](Ch5_SLR/CS2DP/DerivativesPricing.ipynb)
-* [Derivatives Hedging - using reinforcement learning](Ch9_RL/CS2DH/DerivativesHedging.ipynb)
-
-#### 4. Asset Price Prediction
-* [Stock Price Prediction - using regression and time series](Ch5_SLR/CS1SPP/StockPricePrediction.ipynb)
-* [Yield Curve Prediction - using regression and time series](Ch5_SLR/CS4YCP/YieldCurvePrediction.ipynb)
-* [Yield Curve Construction and Interest Rate Modeling - using dimensionality reduction](Ch7_ULDR/CS2YCCIRM/YieldCurveConstruction.ipynb)
-
-#### 5. Fraud Detection
-* [Fraud Detection - using classification](Ch6_SLC/CS1FD/FraudDetection.ipynb)
-
-
-#### 6. Loan Default probability prediction
-* [Loan Default Probability - using classification](Ch6_SLC/CS2LDP/LoanDefaultProbability.ipynb)
-
-
-#### 7. Chatbot and automation
-* [Digital Assistant-chat-bots - using NLP](Ch10_NLP/CS2DA/DigitalAssistant-chat-bot.ipynb)
-* [Documents Summarization - using NLP](Ch10_NLP/CS3DS/DocumentSummarization.ipynb)
-
-
-## Notebooks by Machine Learning Types 
-
-#### 1. Supervised Learning- Regression and Time series Models
-
-*  [Stock Price Prediction ](Ch5_SLR/CS1SPP/StockPricePrediction.ipynb)
-*  [Derivative Pricing](Ch5_SLR/CS2DP/DerivativesPricing.ipynb)
-*  [Investor Risk Tolerance and Robo-advisors](Ch5_SLR/CS3IRTR/InvestorRiskToleranceAndRoboAdvisor.ipynb)
-*  [Yield Curve Prediction](Ch5_SLR/CS4YCP/YieldCurvePrediction.ipynb)
-
-#### 2. Supervised Learning- Classification Models
-*  [Fraud Detection](Ch6_SLC/CS1FD/FraudDetection.ipynb)
-*  [Loan Default Probability](Ch6_SLC/CS2LDP/LoanDefaultProbability.ipynb)
-*  [Bitcoin Trading Strategy](Ch6_SLC/CS3BTS/BitcoinTradingStrategy.ipynb)
-
-#### 3. Unsupervised Learning- Dimensionality Reduction Models
-*   [Portfolio Management - Eigen Portfolio](Ch7_ULDR/CS1PMEP/PortfolioManagementEigenPortfolio.ipynb)
-*   [Yield Curve Construction and Interest Rate Modeling](Ch7_ULDR/CS2YCCIRM/YieldCurveConstruction.ipynb)
-*   [Bitcoin Trading - Enhancing Speed and accuracy](Ch7_ULDR/CS3BTESA/BitcoinTradingEnhancingSpeedAccuracy.ipynb)
-
-#### 4. Unsupervised Learning- Clustering
-*   [Clustering for Pairs Trading](Ch8_ULC/CS1CPT/ClusteringForPairsTrading.ipynb)
-*   [Portfolio Management - Clustering Investors](Ch8_ULC/CS2PMCI/PortfolioManagementClusteringInvestors.ipynb)
-*   [Hierarchial Risk Parity](Ch8_ULC/CS3HRP/HierarchicalRiskParity.ipynb)
-
-#### 5. Reinforcement Learning
-*   [Reinforcement Learning based Trading Strategy](Ch9_RL/CS1RLTS/ReinforcementLearningBasedTradingStrategy.ipynb)
-*   [Derivatives Hedging](Ch9_RL/CS2DH/DerivativesHedging.ipynb)
-*   [Portfolio Allocation](Ch9_RL/CS3PA/PortfolioAllocation.ipynb)
-
-#### 6. Natural Language Processing
-*   [NLP and Sentiments Analysis based Trading Strategy](Ch10_NLP/CS1NLPSA/NLPandSentimentAnalysisBasedTradingStrategy.ipynb)
-*   [Digital Assistant-chat-bots](Ch10_NLP/CS2DA/DigitalAssistant-chat-bot.ipynb)
-*   [Documents Summarization](Ch10_NLP/CS3DS/DocumentSummarization.ipynbb)
-
-
-
-## Master Template for different machine learning type
-
-* [Supervised learning - Regression and Time series](Ch5_SLR/Regression-MasterTemplate.ipynb)
-* [Supervised learning - Classification](Ch6_SLC/Classification-MasterTemplate.ipynb)
-* [Unsupervised learning - Dimensionality Reduction ](Ch7_ULDR/DimensionalityReduction-MasterTemplate.ipynb)
-* [Unsupervised learning - Clustering](Ch8_ULC/Clustering-MasterTemplate.ipynb)
-* [Natural Language Processing](Ch10_NLP/NLP-MasterTemplate.ipynb)
-
- 
+## Notebooks by Application in Finance 
+[Let's get started!](index.ipynb)
